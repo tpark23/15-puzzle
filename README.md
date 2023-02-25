@@ -1,1 +1,1 @@
-# 15-puzzle
+# 15puzzle
