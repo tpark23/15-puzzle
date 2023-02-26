@@ -1,11 +1,27 @@
 body {
-    background-color:rgb(38, 27, 190);
+    background-color:#282a36;
 }
-.head {
-    color:antiquewhite;
+.heading {
+    color:azure;
+    font-family: Monaco, monospace;
+    text-align: center;
 }
 
 .board {
     display: grid;
-    background-color:darkslateblue;
+    background-color: #31396b;
+    border: 2px solid;
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
 }
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    border: 1px solid black;
+    font-size: 48px;
+    position: relative;
+  }
